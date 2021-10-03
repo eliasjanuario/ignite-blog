@@ -1,1 +1,14 @@
-// TODO
+.preview {
+  display: block;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  background: var(--gray);
+  color: var(--background);
+  text-align: center;
+  border-radius: 4px;
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 1.125rem;
+}

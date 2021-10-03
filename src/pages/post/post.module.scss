@@ -22,8 +22,8 @@
 
   .postContentInfo {
     display: flex;
-    margin-bottom: 3rem;
-    padding: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0;
 
     div {
       display: flex;
@@ -34,5 +34,41 @@
         margin-right: 0.3rem;
       }
     }
+  }
+
+  .postUpdate {
+    margin-bottom: 3rem;
+
+    time {
+      opacity: 0.8;
+      color: var(--gray-10);
+    }
+  }
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--gray-100);
+
+  div {
+    padding: 3rem 0;
+  }
+
+  div + div {
+    text-align: right;
+  }
+
+  h3 {
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: var(--gray);
+    margin-bottom: 0.5rem;
+  }
+
+  a {
+    color: var(--pink);
+    font-weight: 600;
   }
 }
