@@ -1,1 +1,38 @@
-// TODO
+.postBanner {
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
+  margin-bottom: 80px;
+}
+
+.postContent {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 2rem;
+
+  h1 {
+    font-size: 2.25rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    margin: 1.8rem 0;
+  }
+
+  .postContentInfo {
+    display: flex;
+    margin-bottom: 3rem;
+    padding: 0.5rem;
+
+    div {
+      display: flex;
+      align-items: center;
+      margin-right: 0.5rem;
+
+      svg {
+        margin-right: 0.3rem;
+      }
+    }
+  }
+}
